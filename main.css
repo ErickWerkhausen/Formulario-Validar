@@ -1,0 +1,45 @@
+* {
+    padding: none;
+    margin: none;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: rgba(85, 95, 86, 0.301);
+}
+
+
+
+.container form div {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container form h1{
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.container form button {
+    width: 175px;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.menssagem {
+    padding: 16px;
+    background-color: #404442d3;
+    color: white;
+    text-align: center;
+}
